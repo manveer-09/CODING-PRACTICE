@@ -4,10 +4,9 @@ int main(){
     int n;
     cout<<"Enter the number: ";
     cin>>n;
-    if(n>0){
-        cout<<n;
+    if(n<0){
+        n=-n;
     }
-    else{
-        cout<<-n;
-    }
+    cout<<n;
+ 
 }
