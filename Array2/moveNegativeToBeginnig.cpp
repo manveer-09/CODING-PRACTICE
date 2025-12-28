@@ -1,5 +1,4 @@
 #include<iostream>
-#include<vector>
 using namespace std;
 void moveNegative(int arr[],int n){
    int i=0;

@@ -1,5 +1,4 @@
 #include<iostream>
-#include<vector>
 using namespace std;
 void sort0and1(int arr[],int n){
    int i=0;
