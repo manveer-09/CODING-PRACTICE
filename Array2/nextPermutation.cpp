@@ -18,7 +18,7 @@ void nextPermutation(vector<int>& v){
         return;
     }
 
-    // sorting reverse/sorting
+    // reverse/sorting
     reverse(v.begin()+idx+1,v.end());
 
     // finding the just greater element than idx
